@@ -19,7 +19,11 @@ Plans, research hypotheses and proposed capabilities in this repository should n
 
 ## Procedural knowledge
 
-The [Local Plan procedural foundation](knowledge/procedures/README.md) contains
+Start with the [readable procedural review guide](docs/procedures/README.md),
+which explains the model through stage pages and worked examples, with links
+from each assertion to its evidence definitions and official source.
+
+The [technical package](knowledge/procedures/README.md) contains
 machine-readable models of the saved 2012 and new 2026 systems, official source
 provenance, JSON schemas and executable examples. It is reviewable foundation
 work for the wider environment, with explicit coverage limits.

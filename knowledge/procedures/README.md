@@ -1,5 +1,11 @@
 # Local Plan procedural knowledge
 
+**Start with the [readable review guide](../../docs/procedures/README.md).**
+It explains the model, compares the two procedures and links to stage-by-stage
+assertions and ten worked examples. The pages show each source, the actual
+predicate, evidence definitions and what still depends on a reviewer. This file
+is the technical reference for running and maintaining the package.
+
 This is a reviewable foundation for the wider Planner's Assistant: versioned
 procedural knowledge for ordinary English Local Plans in the saved 2012 system
 and the 2026 system. It is not an implemented Local Plan application or an
@@ -43,6 +49,7 @@ validation error. CI runs validation and the test suite on relevant changes.
 | [../../tools/procedure_model.py](../../tools/procedure_model.py) | Replaceable reference validator and evaluator |
 | [../../tests/test_procedure_model.py](../../tests/test_procedure_model.py) | Integrity, provenance, uncertainty and regression tests |
 | [../../docs/procedural-source-review.md](../../docs/procedural-source-review.md) | Recovery record, legal verification and important interpretation decisions |
+| [../../docs/procedures/README.md](../../docs/procedures/README.md) | Human review route, stage catalogue, evidence definitions and worked results |
 | [NOTICE.md](NOTICE.md) | Source attribution and licensing |
 
 Rules have stable IDs and explicit versions, regime, actor, stage, normative
@@ -166,6 +173,11 @@ For a source update:
 Version `0.1.0` is a provisional interchange contract. Git history preserves this
 release. There is no permanent architecture decision and no runtime network
 dependency on the source websites.
+
+Readable stage, fact and worked-example pages are rebuilt with
+`python tools/build_procedure_docs.py`. CI runs the same command with `--check`
+to detect drift. Interpretation notes in `docs/procedures/editorial-notes.md`
+remain hand-authored and require substantive review.
 
 ## Coverage limits
 

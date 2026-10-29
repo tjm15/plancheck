@@ -4,6 +4,11 @@ This directory will hold technical design decisions, research, provenance conven
 
 ## Procedural knowledge foundation
 
+The [readable review guide](procedures/README.md) is the starting point for
+understanding and auditing the model. It includes the two procedural routes,
+stage pages with plain-language predicates and source links, complete input
+definitions, and ten worked examples with actual evaluator results.
+
 The [Local Plan procedural package](../knowledge/procedures/README.md) provides
 versioned JSON data, schemas, an evidence-aware reference evaluator and regression
 examples for the saved 2012 and new 2026 systems. The

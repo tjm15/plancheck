@@ -1,9 +1,9 @@
 name: Procedural knowledge validation
 on:
   push:
-    paths: ['knowledge/procedures/**', 'tools/procedure_model.py', 'tests/test_procedure_model.py', 'requirements-procedures.txt', '.github/workflows/procedures.yml']
+    paths: ['knowledge/procedures/**', 'docs/procedures/**', 'tools/procedure_model.py', 'tools/build_procedure_docs.py', 'tests/test_procedure_model.py', 'requirements-procedures.txt', '.github/workflows/procedures.yml']
   pull_request:
-    paths: ['knowledge/procedures/**', 'tools/procedure_model.py', 'tests/test_procedure_model.py', 'requirements-procedures.txt', '.github/workflows/procedures.yml']
+    paths: ['knowledge/procedures/**', 'docs/procedures/**', 'tools/procedure_model.py', 'tools/build_procedure_docs.py', 'tests/test_procedure_model.py', 'requirements-procedures.txt', '.github/workflows/procedures.yml']
 permissions:
   contents: read
 jobs:
@@ -19,3 +19,4 @@ jobs:
       - run: python -m pip install -r requirements-procedures.txt
       - run: python tools/procedure_model.py validate
       - run: python -m unittest discover -s tests -v
+      - run: python tools/build_procedure_docs.py --check

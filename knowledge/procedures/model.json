@@ -1020,163 +1020,163 @@
     {
       "id": "legacy_reg18_invitations_recorded",
       "type": "boolean",
-      "description": "legacy reg18 invitations recorded",
+      "description": "The authority has identified the appropriate consultation bodies and residents/businesses under regulation 18 and recorded the required invitations to make representations.",
       "assessment": "record"
     },
     {
       "id": "legacy_reg18_responses_considered",
       "type": "boolean",
-      "description": "legacy reg18 responses considered",
+      "description": "The authority has considered the representations received in preparing the plan; the reviewer has checked the response record rather than merely counted submissions.",
       "assessment": "professional_judgement"
     },
     {
       "id": "legacy_reg19_publication_and_notices_recorded",
       "type": "boolean",
-      "description": "legacy reg19 publication and notices recorded",
+      "description": "The proposed submission documents and statement of representations procedure have been made available and the regulation 19 consultation-body notices sent. This bundles several publication and notification duties into one reviewed observation.",
       "assessment": "record"
     },
     {
       "id": "consultation_published",
       "type": "date",
-      "description": "consultation published",
+      "description": "Calendar date of the publication that starts the selected consultation period. In a legacy case this is publication of the statement of representations procedure; in a new-system case it is the relevant content/evidence or proposed-plan notice. Use a separate case for each consultation.",
       "assessment": "record"
     },
     {
       "id": "consultation_deadline",
       "type": "date",
-      "description": "consultation deadline",
+      "description": "Last calendar date stated for receipt of representations in the selected consultation. This field must refer to the same consultation as consultation_published.",
       "assessment": "record"
     },
     {
       "id": "legacy_checklist_sent",
       "type": "boolean",
-      "description": "legacy checklist sent",
+      "description": "The authority has completed and sent the pre-examination checklist described by the legacy procedure guide.",
       "assessment": "record"
     },
     {
       "id": "legacy_checklist_response_target_met",
       "type": "boolean",
-      "description": "legacy checklist response target met",
+      "description": "An evidenced review of checklist receipt and Inspectorate response establishes whether the ten-working-day service aim was met. The evaluator does not calculate working days.",
       "assessment": "record"
     },
     {
       "id": "legacy_regulatory_requirements_met",
       "type": "boolean",
-      "description": "legacy regulatory requirements met",
+      "description": "The reviewer has established compliance with the relevant regulatory requirements referred to by saved PCPA section 20(2)(a), with a record of which requirements were considered. This package does not derive that finding from its selected rules.",
       "assessment": "professional_judgement"
     },
     {
       "id": "lpa_ready_for_examination",
       "type": "boolean",
-      "description": "lpa ready for examination",
+      "description": "The authority has recorded that it considers the legacy plan ready for independent examination under saved PCPA section 20(2)(b).",
       "assessment": "professional_judgement"
     },
     {
       "id": "adoption_changes_policies_map",
       "type": "boolean",
-      "description": "adoption changes policies map",
+      "description": "Adoption of this legacy plan would change the adopted policies map. This is the condition for supplying a submission policies map under regulation 22(1)(b).",
       "assessment": "record"
     },
     {
       "id": "reg20_representations_received",
       "type": "boolean",
-      "description": "reg20 representations received",
+      "description": "At least one representation was received under legacy regulation 20; the submission-pack representation duty is assessed against that record.",
       "assessment": "record"
     },
     {
       "id": "legacy_submission_sa_report_provided",
       "type": "boolean",
-      "description": "legacy submission sa report provided",
+      "description": "The reviewer has verified that the sustainability appraisal report was included in the legacy examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "legacy_submission_policies_map_provided",
       "type": "boolean",
-      "description": "legacy submission policies map provided",
+      "description": "The reviewer has verified that the proposed or submission policies map was included in the legacy examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "legacy_submission_consultation_statement_provided",
       "type": "boolean",
-      "description": "legacy submission consultation statement provided",
+      "description": "The reviewer has verified that the legacy Regulation 22 consultation statement was included in the legacy examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "legacy_submission_representations_provided",
       "type": "boolean",
-      "description": "legacy submission representations provided",
+      "description": "The reviewer has verified that the representations and their identifiers was included in the legacy examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "legacy_submission_supporting_evidence_provided",
       "type": "boolean",
-      "description": "legacy submission supporting evidence provided",
+      "description": "The reviewer has verified that the supporting evidence selected by the authority was included in the legacy examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "legacy_submission_publicity_recorded",
       "type": "boolean",
-      "description": "legacy submission publicity recorded",
+      "description": "The reviewer has checked regulation 22(3) availability and notifications, including required recipients, the practicability qualification and the as-soon-as-reasonably-practicable timing. Finding an examination-library webpage alone is insufficient.",
       "assessment": "record"
     },
     {
       "id": "hearing_notice_published",
       "type": "date",
-      "description": "hearing notice published",
+      "description": "Calendar date on which the required hearing details and examiner name were made available for the hearing being assessed.",
       "assessment": "record"
     },
     {
       "id": "hearing_opens",
       "type": "date",
-      "description": "hearing opens",
+      "description": "Calendar date on which the hearing being assessed opens.",
       "assessment": "record"
     },
     {
       "id": "legacy_nonwithdrawn_representors_notified",
       "type": "boolean",
-      "description": "legacy nonwithdrawn representors notified",
+      "description": "The hearing date, time, place and examiner name were notified to persons who made regulation 20 representations and have not withdrawn them, under legacy regulation 24(2).",
       "assessment": "record"
     },
     {
       "id": "hearing_to_be_held",
       "type": "boolean",
-      "description": "hearing to be held",
+      "description": "A hearing is to be held, triggering the selected hearing-notice assertion.",
       "assessment": "record"
     },
     {
       "id": "hearing_opportunity_given",
       "type": "boolean",
-      "description": "hearing opportunity given",
+      "description": "The person being assessed was given an opportunity to appear before and be heard by the examiner.",
       "assessment": "record"
     },
     {
       "id": "representation_made",
       "type": "boolean",
-      "description": "representation made",
+      "description": "The person being assessed made a representation on this plan. The case concerns one person’s hearing entitlement.",
       "assessment": "record"
     },
     {
       "id": "representation_seeks_change",
       "type": "boolean",
-      "description": "representation seeks change",
+      "description": "The person’s representation seeks a change to the legacy plan, engaging the additional condition in saved PCPA section 20(6).",
       "assessment": "record"
     },
     {
       "id": "hearing_requested",
       "type": "boolean",
-      "description": "hearing requested",
+      "description": "The person being assessed requested an opportunity to appear before and be heard by the examiner.",
       "assessment": "record"
     },
     {
       "id": "reg20_representations_considered",
       "type": "boolean",
-      "description": "reg20 representations considered",
+      "description": "The examiner has considered the regulation 20 representations before making recommendations, as required by legacy regulation 23.",
       "assessment": "professional_judgement"
     },
     {
       "id": "curative_modifications_recommended",
       "type": "boolean",
-      "description": "curative modifications recommended",
+      "description": "The legacy examiner has recommended the modifications necessary to make the plan sound and meet the saved legal requirements, following the authority’s request where required.",
       "assessment": "record"
     },
     {
@@ -1188,139 +1188,139 @@
     {
       "id": "curable_by_modifications",
       "type": "boolean",
-      "description": "curable by modifications",
+      "description": "The examiner considers that modifications can produce a sound plan; for the legacy rule they must also remedy the relevant saved legal requirements. This is a professional conclusion, not a file-presence test.",
       "assessment": "professional_judgement"
     },
     {
       "id": "lpa_requested_modifications",
       "type": "boolean",
-      "description": "lpa requested modifications",
+      "description": "The legacy authority asked the examiner to recommend main modifications under saved PCPA section 20(7C).",
       "assessment": "record"
     },
     {
       "id": "mm_published",
       "type": "date",
-      "description": "mm published",
+      "description": "Calendar date on which the legacy proposed main modifications were published for the consultation being assessed.",
       "assessment": "record"
     },
     {
       "id": "mm_deadline",
       "type": "date",
-      "description": "mm deadline",
+      "description": "Calendar deadline for representations on those legacy proposed main modifications.",
       "assessment": "record"
     },
     {
       "id": "legacy_pause_normally_within_six_months",
       "type": "boolean",
-      "description": "legacy pause normally within six months",
+      "description": "An evidenced assessment records whether the legacy further-work pause meets the guide’s usual six-month expectation, taking the guidance’s qualification into account. No statutory maximum is inferred.",
       "assessment": "record"
     },
     {
       "id": "legacy_report_publication_recorded",
       "type": "boolean",
-      "description": "legacy report publication recorded",
+      "description": "Final legacy recommendations and reasons were published and required notifications sent under regulation 25, using the correct trigger if a relevant Secretary of State direction applies.",
       "assessment": "record"
     },
     {
       "id": "legacy_adoption_publication_recorded",
       "type": "boolean",
-      "description": "legacy adoption publication recorded",
+      "description": "The adopted legacy plan, adoption statement and sustainability appraisal report were made available, requesters notified and the adoption statement sent to the Secretary of State under regulation 26.",
       "assessment": "record"
     },
     {
       "id": "legacy_withdrawal_publicity_recorded",
       "type": "boolean",
-      "description": "legacy withdrawal publicity recorded",
+      "description": "The legacy withdrawal statement, notifications and cessation of specified document availability have been checked against regulation 27.",
       "assessment": "record"
     },
     {
       "id": "timetable_requirements_met",
       "type": "boolean",
-      "description": "timetable requirements met",
+      "description": "The authority’s timetable content, initial publication and subsequent revisions comply with the selected duties in 2026 regulations 4, 6 and 8. The reviewer supplies this overall finding; the evaluator does not inspect milestones or calculate monthly updates.",
       "assessment": "professional_judgement"
     },
     {
       "id": "notice_intention_requirements_met",
       "type": "boolean",
-      "description": "notice intention requirements met",
+      "description": "The notice of intention has the regulation 19 content and has been published as required, including any applicable additional details. This is a reviewed bundle, not a text extraction.",
       "assessment": "record"
     },
     {
       "id": "scoping_invitations_and_notice_recorded",
       "type": "boolean",
-      "description": "scoping invitations and notice recorded",
+      "description": "The regulation 20 scoping invitations and public notice identify the prescribed matters, representation arrangements and notification opportunities, and were addressed to the appropriate consultation classes.",
       "assessment": "record"
     },
     {
       "id": "notice_intention_date",
       "type": "date",
-      "description": "notice intention date",
+      "description": "Calendar date on which the regulation 19 notice of intention was made available.",
       "assessment": "record"
     },
     {
       "id": "scoping_notice_date",
       "type": "date",
-      "description": "scoping notice date",
+      "description": "Calendar date on which the regulation 20 scoping consultation notice was published.",
       "assessment": "record"
     },
     {
       "id": "gateway1_contents_recorded",
       "type": "boolean",
-      "description": "gateway1 contents recorded",
+      "description": "The LPA self-assessment summary addresses timetable compliance, project management/governance, consultation/engagement, anticipated plan content and relevant SEA obligations under regulation 21(2).",
       "assessment": "record"
     },
     {
       "id": "four_calendar_month_notice_period_elapsed",
       "type": "boolean",
-      "description": "four calendar month notice period elapsed",
+      "description": "The reviewer has checked that gateway 1 publication is no earlier than the first day after the four-month period beginning with notice-of-intention publication. Calendar-month arithmetic is supplied as a reviewed conclusion.",
       "assessment": "professional_judgement"
     },
     {
       "id": "scoping_deadline",
       "type": "date",
-      "description": "scoping deadline",
+      "description": "Calendar deadline stated for representations in the regulation 20 scoping consultation.",
       "assessment": "record"
     },
     {
       "id": "gateway1_published",
       "type": "date",
-      "description": "gateway1 published",
+      "description": "Calendar date on which the LPA made its gateway 1 self-assessment summary available.",
       "assessment": "record"
     },
     {
       "id": "scoping_summary_contents_recorded",
       "type": "boolean",
-      "description": "scoping summary contents recorded",
+      "description": "The scoping summary records the prescribed consultation activity, main issues and their treatment, or the absence of representations, under regulation 22.",
       "assessment": "record"
     },
     {
       "id": "scoping_summary_published",
       "type": "date",
-      "description": "scoping summary published",
+      "description": "Calendar date on which the regulation 22 scoping consultation summary was made available.",
       "assessment": "record"
     },
     {
       "id": "content_consultation_notices_recorded",
       "type": "boolean",
-      "description": "content consultation notices recorded",
+      "description": "The regulation 23 content/evidence material and notice were made available, appropriate consultation bodies invited and required notifications recorded. The contents of the published pack require review.",
       "assessment": "record"
     },
     {
       "id": "content_summary_contents_recorded",
       "type": "boolean",
-      "description": "content summary contents recorded",
+      "description": "The regulation 24 summary records the content/evidence consultation, main issues and their treatment, including the required statement where no representations were received.",
       "assessment": "record"
     },
     {
       "id": "content_summary_published",
       "type": "date",
-      "description": "content summary published",
+      "description": "Calendar date on which the regulation 24 content/evidence consultation summary was made available.",
       "assessment": "record"
     },
     {
       "id": "gateway2_requested",
       "type": "date",
-      "description": "gateway2 requested",
+      "description": "Calendar date on which the authority sought gateway 2 observations and advice under regulation 26.",
       "assessment": "record"
     },
     {
@@ -1332,223 +1332,223 @@
     {
       "id": "gateway2_material_sent",
       "type": "date",
-      "description": "gateway2 material sent",
+      "description": "Calendar date on which the authority sent the material it considered necessary for gateway 2 advice.",
       "assessment": "record"
     },
     {
       "id": "new_gateway2_plan_provided",
       "type": "boolean",
-      "description": "An emerging draft plan or relevant emerging policy detail is provided to support gateway 2, as recommended by guidance; no fixed statutory draft-plan requirement applies at that gateway.",
+      "description": "An emerging draft plan or relevant emerging policy detail is supplied to assist gateway 2, as recommended by the procedure guide. This observation concerns gateway 2 supporting material, not the gateway 3 or examination submission packs.",
       "assessment": "record"
     },
     {
       "id": "new_gateway2_policies_map_provided",
       "type": "boolean",
-      "description": "new gateway2 policies map provided",
+      "description": "An emerging policies map was supplied to assist gateway 2 as recommended by guidance. Its absence alone does not establish a breach of regulation 26(3).",
       "assessment": "record"
     },
     {
       "id": "new_gateway2_gateway2_cover_provided",
       "type": "boolean",
-      "description": "new gateway2 gateway2 cover provided",
+      "description": "A covering letter was supplied with the gateway 2 material, as recommended by the procedure guide.",
       "assessment": "record"
     },
     {
       "id": "new_gateway2_draft_compliance_provided",
       "type": "boolean",
-      "description": "new gateway2 draft compliance provided",
+      "description": "A draft statement of compliance was supplied to assist gateway 2; this is the recommended draft, not the mandatory completed gateway 3 statement.",
       "assessment": "record"
     },
     {
       "id": "new_gateway2_draft_soundness_provided",
       "type": "boolean",
-      "description": "new gateway2 draft soundness provided",
+      "description": "A draft statement of soundness was supplied to assist gateway 2; this is the recommended draft, not an examiner’s finding of soundness.",
       "assessment": "record"
     },
     {
       "id": "new_gateway2_evidence_index_provided",
       "type": "boolean",
-      "description": "new gateway2 evidence index provided",
+      "description": "An evidence register, including expected completion dates for outstanding evidence where relevant, was supplied to assist gateway 2 under the guide.",
       "assessment": "record"
     },
     {
       "id": "gateway2_target_met",
       "type": "boolean",
-      "description": "gateway2 target met",
+      "description": "An evidenced review establishes whether gateway 2 met the guide’s indicative four-to-six-week duration, allowing for its stated qualifications. This is a service target, not a statutory time limit.",
       "assessment": "record"
     },
     {
       "id": "gateway2_publication_and_notices_recorded",
       "type": "boolean",
-      "description": "gateway2 publication and notices recorded",
+      "description": "Gateway 2 advice was published as soon as reasonably practicable; on the publication day the advice and supplied material were made available, requesters/appropriate persons notified and copies sent to persons identified in the advice.",
       "assessment": "record"
     },
     {
       "id": "gateway_advice_and_responses_considered",
       "type": "boolean",
-      "description": "gateway advice and responses considered",
+      "description": "The authority has had regard to gateway observations/advice and consultation representations when preparing the plan under PCPA section 15CA(6)(a)-(b). It need not accept every recommendation.",
       "assessment": "professional_judgement"
     },
     {
       "id": "new_plan_publication_and_invitations_recorded",
       "type": "boolean",
-      "description": "new plan publication and invitations recorded",
+      "description": "The proposed-plan consultation pack and notice required by regulation 27 were made available and appropriate consultation bodies invited. The pack includes plan, policies map, evidence details, consultation statement and relevant supporting documents.",
       "assessment": "record"
     },
     {
       "id": "gateway2_advice_published",
       "type": "date",
-      "description": "gateway2 advice published",
+      "description": "Calendar date on which the authority published its gateway 2 observations and advice.",
       "assessment": "record"
     },
     {
       "id": "sds_invitation_same_day_recorded",
       "type": "boolean",
-      "description": "sds invitation same day recorded",
+      "description": "On proposed-plan consultation publication day, the authority invited the operative spatial development strategy authority’s conformity representations as required by regulation 28.",
       "assessment": "record"
     },
     {
       "id": "operative_sds",
       "type": "boolean",
-      "description": "operative sds",
+      "description": "A spatial development strategy is operative in relation to the plan area so that the selected regulation 28 conformity/document requirements apply.",
       "assessment": "record"
     },
     {
       "id": "supplementary_statement_same_day_recorded",
       "type": "boolean",
-      "description": "supplementary statement same day recorded",
+      "description": "Where regulation 29 applies, the supplementary plans statement was made available on the same day as the proposed-plan consultation documents.",
       "assessment": "record"
     },
     {
       "id": "qualifying_supplementary_plans",
       "type": "boolean",
-      "description": "qualifying supplementary plans",
+      "description": "Supplementary plans meeting the condition in regulation 29 are in effect, triggering its statement requirement. The legal trigger must be checked from the actual instruments.",
       "assessment": "record"
     },
     {
       "id": "plan_summary_contents_recorded",
       "type": "boolean",
-      "description": "plan summary contents recorded",
+      "description": "The regulation 30 proposed-plan consultation summary contains the prescribed consultation information and treatment of issues, including the required statement if no representations were received.",
       "assessment": "record"
     },
     {
       "id": "plan_summary_published",
       "type": "date",
-      "description": "plan summary published",
+      "description": "Calendar date on which the regulation 30 proposed-plan consultation summary was made available.",
       "assessment": "record"
     },
     {
       "id": "lpa_considers_prescribed_requirements_met",
       "type": "boolean",
-      "description": "lpa considers prescribed requirements met",
+      "description": "The authority considers that the regulation 32 prescribed requirements are met when seeking gateway 3. This is its own judgement, distinct from the appointed assessor’s subsequent advice.",
       "assessment": "professional_judgement"
     },
     {
       "id": "gateway3_requested",
       "type": "date",
-      "description": "gateway3 requested",
+      "description": "Calendar date on which the authority sought the initial gateway 3 prescribed-requirements assessment under regulation 31.",
       "assessment": "record"
     },
     {
       "id": "sds_representations_received",
       "type": "boolean",
-      "description": "sds representations received",
+      "description": "At least one conformity representation was received under regulation 28; copies must be included where the selected pack requires them.",
       "assessment": "record"
     },
     {
       "id": "environmental_report_prepared",
       "type": "boolean",
-      "description": "environmental report prepared",
+      "description": "An environmental report has been prepared under regulation 12 of the SEA Regulations 2004. This triggers the selected pack’s report-copy requirement; it does not decide whether an assessment should have been undertaken.",
       "assessment": "record"
     },
     {
       "id": "sea_no_significant_effects_determination",
       "type": "boolean",
-      "description": "sea no significant effects determination",
+      "description": "The authority has made the SEA regulation 9(1) determination that the plan is unlikely to have significant environmental effects, with a reasons statement under regulation 9(3). This records the determination, not this evaluator’s environmental judgement.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_plan_provided",
       "type": "boolean",
-      "description": "new gateway3 plan provided",
+      "description": "The reviewer has verified that the proposed Local Plan was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_policies_map_provided",
       "type": "boolean",
-      "description": "new gateway3 policies map provided",
+      "description": "The reviewer has verified that the proposed or submission policies map was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_compliance_provided",
       "type": "boolean",
-      "description": "new gateway3 compliance provided",
+      "description": "The reviewer has verified that the statement of compliance was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_soundness_provided",
       "type": "boolean",
-      "description": "new gateway3 soundness provided",
+      "description": "The reviewer has verified that the statement of soundness was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_engagement_summary_provided",
       "type": "boolean",
-      "description": "new gateway3 engagement summary provided",
+      "description": "The reviewer has verified that the summary of consultation and engagement was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_scoping_summary_provided",
       "type": "boolean",
-      "description": "new gateway3 scoping summary provided",
+      "description": "The reviewer has verified that the summary of scoping consultation was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_content_summary_provided",
       "type": "boolean",
-      "description": "new gateway3 content summary provided",
+      "description": "The reviewer has verified that the content and evidence consultation summary was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_plan_summary_provided",
       "type": "boolean",
-      "description": "new gateway3 plan summary provided",
+      "description": "The reviewer has verified that the proposed-plan consultation summary was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_sds_representations_provided",
       "type": "boolean",
-      "description": "new gateway3 sds representations provided",
+      "description": "The reviewer has verified that the representations on conformity with operative SDS was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_practical_readiness_provided",
       "type": "boolean",
-      "description": "new gateway3 practical readiness provided",
+      "description": "The reviewer has verified that the practical arrangements for examination was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_supplementary_statement_provided",
       "type": "boolean",
-      "description": "new gateway3 supplementary statement provided",
+      "description": "The reviewer has verified that the supplementary plans statement was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_environmental_report_provided",
       "type": "boolean",
-      "description": "new gateway3 environmental report provided",
+      "description": "The reviewer has verified that the environmental report under SEA reg 12 was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_gateway3_screening_reasons_provided",
       "type": "boolean",
-      "description": "new gateway3 screening reasons provided",
+      "description": "The reviewer has verified that the sEA screening determination reasons under reg 9(3) was included in the gateway 3 submission to the appointed assessor. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "gateway3_additional_material_sent",
       "type": "boolean",
-      "description": "gateway3 additional material sent",
+      "description": "The authority sent any additional documents or information it considered necessary to support the gateway 3 assessment, under the regulation 17 definition. The evaluator does not decide which additional evidence is necessary.",
       "assessment": "professional_judgement"
     },
     {
@@ -1626,13 +1626,13 @@
     {
       "id": "gateway3_reasoned_findings_sent",
       "type": "boolean",
-      "description": "gateway3 reasoned findings sent",
+      "description": "The appointed assessor sent electronically in typescript a met/not-met conclusion and reasoned justification for each regulation 32 requirement under regulation 31(4).",
       "assessment": "record"
     },
     {
       "id": "gateway3_completion_publication_recorded",
       "type": "boolean",
-      "description": "gateway3 completion publication recorded",
+      "description": "On the day successful gateway 3 advice was published, the authority also made available the completion statement and gateway 3 submission documents under regulation 31(6).",
       "assessment": "record"
     },
     {
@@ -1644,91 +1644,91 @@
     {
       "id": "gateway3_remedy_and_repeat_recorded",
       "type": "boolean",
-      "description": "gateway3 remedy and repeat recorded",
+      "description": "Following failed gateway 3 advice, the authority addressed the reasons for failure and sought further assessment with updated prescribed documents under regulation 33, as soon as reasonably practicable and again if required. This Boolean summarises the loop; the evaluator does not track its individual iterations.",
       "assessment": "record"
     },
     {
       "id": "plan_submitted",
       "type": "boolean",
-      "description": "plan submitted",
+      "description": "The proposed Local Plan has been submitted to the Secretary of State for independent examination under PCPA section 15D(1).",
       "assessment": "record"
     },
     {
       "id": "new_submission_policies_map_provided",
       "type": "boolean",
-      "description": "new submission policies map provided",
+      "description": "The reviewer has verified that the proposed or submission policies map was included in the new-system examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_submission_gateway3_completion_provided",
       "type": "boolean",
-      "description": "new submission gateway3 completion provided",
+      "description": "The reviewer has verified that the gateway 3 completion statement was included in the new-system examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_submission_engagement_summary_provided",
       "type": "boolean",
-      "description": "new submission engagement summary provided",
+      "description": "The reviewer has verified that the summary of consultation and engagement was included in the new-system examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_submission_plan_summary_provided",
       "type": "boolean",
-      "description": "new submission plan summary provided",
+      "description": "The reviewer has verified that the proposed-plan consultation summary was included in the new-system examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_submission_sds_representations_provided",
       "type": "boolean",
-      "description": "new submission sds representations provided",
+      "description": "The reviewer has verified that the representations on conformity with operative SDS was included in the new-system examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_submission_compliance_provided",
       "type": "boolean",
-      "description": "new submission compliance provided",
+      "description": "The reviewer has verified that the statement of compliance was included in the new-system examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_submission_soundness_provided",
       "type": "boolean",
-      "description": "new submission soundness provided",
+      "description": "The reviewer has verified that the statement of soundness was included in the new-system examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_submission_environmental_report_provided",
       "type": "boolean",
-      "description": "new submission environmental report provided",
+      "description": "The reviewer has verified that the environmental report under SEA reg 12 was included in the new-system examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_submission_screening_reasons_provided",
       "type": "boolean",
-      "description": "new submission screening reasons provided",
+      "description": "The reviewer has verified that the sEA screening determination reasons under reg 9(3) was included in the new-system examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_submission_supporting_evidence_provided",
       "type": "boolean",
-      "description": "new submission supporting evidence provided",
+      "description": "The reviewer has verified that the supporting evidence selected by the authority was included in the new-system examination submission. This input records provision of the document; it does not establish the adequacy of its contents or, by itself, the date of transmission.",
       "assessment": "record"
     },
     {
       "id": "new_submission_publicity_recorded",
       "type": "boolean",
-      "description": "new submission publicity recorded",
+      "description": "The authority published the submission date and prescribed submission material and notified requesters and other appropriate persons under regulation 34. Exact availability and recipient requirements require review.",
       "assessment": "record"
     },
     {
       "id": "new_hearing_requesters_notified",
       "type": "boolean",
-      "description": "new hearing requesters notified",
+      "description": "Persons who requested notification and other persons the authority considers appropriate received the regulation 35 hearing notice with date, time, place and examiner name.",
       "assessment": "record"
     },
     {
       "id": "examination_target_met",
       "type": "boolean",
-      "description": "examination target met",
+      "description": "An evidenced duration assessment establishes whether the new examination met the government’s six-month expectation. This is distinct from the statutory pause limit and is not calculated from event dates by this evaluator.",
       "assessment": "record"
     },
     {
@@ -1740,49 +1740,49 @@
     {
       "id": "mm_consultation_and_assessments_recorded",
       "type": "boolean",
-      "description": "mm consultation and assessments recorded",
+      "description": "Main modifications were consulted upon and the necessary environmental/habitats assessment work undertaken and considered before final recommendation, as described by the new procedure guide.",
       "assessment": "professional_judgement"
     },
     {
       "id": "pause_notice_recorded",
       "type": "boolean",
-      "description": "pause notice recorded",
+      "description": "The examiner notified the authority and Secretary of State of the decision to pause, the matters requiring work and the pause period under PCPA section 15DA(2).",
       "assessment": "record"
     },
     {
       "id": "pause_within_six_calendar_months",
       "type": "boolean",
-      "description": "pause within six calendar months",
+      "description": "The reviewer has checked the notified pause period against the six-calendar-month maximum in section 15DA(3) and regulation 36(1). The evaluator does not approximate months as a fixed number of days.",
       "assessment": "professional_judgement"
     },
     {
       "id": "pause_notified",
       "type": "date",
-      "description": "pause notified",
+      "description": "Calendar date on which the examiner gave the authority the section 15DA(2) notice.",
       "assessment": "record"
     },
     {
       "id": "pause_begins",
       "type": "date",
-      "description": "pause begins",
+      "description": "Calendar date on which the notified examination pause begins.",
       "assessment": "record"
     },
     {
       "id": "pause_response_contents_recorded",
       "type": "boolean",
-      "description": "pause response contents recorded",
+      "description": "The response states what work the authority undertook, sets out proposed modifications or states that none are proposed, and supplies any further soundness evidence the authority has under section 15DA(6).",
       "assessment": "record"
     },
     {
       "id": "pause_response_sent",
       "type": "date",
-      "description": "pause response sent",
+      "description": "Calendar date on which the authority sent its pause-response material. Retained as evidence metadata; this date alone does not decide whether delivery preceded expiry.",
       "assessment": "record"
     },
     {
       "id": "pause_ends",
       "type": "date",
-      "description": "pause ends",
+      "description": "Calendar date on which the notified pause period ends. Actual expiry and delivery timing must be checked before concluding that a same-day response was late.",
       "assessment": "record"
     },
     {
@@ -1794,85 +1794,85 @@
     {
       "id": "withdrawal_recommended_with_reasons",
       "type": "boolean",
-      "description": "withdrawal recommended with reasons",
+      "description": "The examiner recommended withdrawal and gave reasons under the applicable new-system withdrawal condition.",
       "assessment": "record"
     },
     {
       "id": "pause_ended",
       "type": "boolean",
-      "description": "pause ended",
+      "description": "The notified pause period has ended, so the post-pause decision condition is being assessed.",
       "assessment": "record"
     },
     {
       "id": "unresolved_matters_no_soundness_prospect",
       "type": "boolean",
-      "description": "unresolved matters no soundness prospect",
+      "description": "At pause end, the examiner considers that the notified matters have not been dealt with and consequently there is no prospect of a sound plan under section 15DA(8). Unfinished work alone does not establish this compound judgement.",
       "assessment": "professional_judgement"
     },
     {
       "id": "examination_resumed",
       "type": "boolean",
-      "description": "examination resumed",
+      "description": "The examination resumed at the end of the pause where no section 15DA(8) withdrawal recommendation was made.",
       "assessment": "record"
     },
     {
       "id": "withdrawal_under_15da8",
       "type": "boolean",
-      "description": "withdrawal under 15da8",
+      "description": "The examiner made a withdrawal recommendation under section 15DA(8), determining whether section 15DA(9) requires resumption.",
       "assessment": "record"
     },
     {
       "id": "adoption_recommended_with_reasons",
       "type": "boolean",
-      "description": "adoption recommended with reasons",
+      "description": "The examiner recommended adoption and gave reasons under the selected regime’s statutory recommendation condition.",
       "assessment": "record"
     },
     {
       "id": "examination_completed",
       "type": "boolean",
-      "description": "examination completed",
+      "description": "The examiner has carried out the independent examination; the final recommendation provisions are now being assessed.",
       "assessment": "record"
     },
     {
       "id": "paused_or_to_be_paused",
       "type": "boolean",
-      "description": "paused or to be paused",
+      "description": "The new-system examination is paused, or the examiner has decided that it is to be paused, so the section 15D(12) withdrawal condition is not yet met.",
       "assessment": "record"
     },
     {
       "id": "new_report_publicity_recorded",
       "type": "boolean",
-      "description": "new report publicity recorded",
+      "description": "Final new-system recommendations and reasons were published and required notifications sent under regulation 37, using the applicable trigger and any relevant direction exception.",
       "assessment": "record"
     },
     {
       "id": "adoption_conforms_to_recommendation",
       "type": "boolean",
-      "description": "adoption conforms to recommendation",
+      "description": "Adoption is by resolution in accordance with PCPA section 15EA, includes the required recommended modifications and contains only permitted additional changes that do not materially affect content. The reviewer supplies this legal/content judgement.",
       "assessment": "professional_judgement"
     },
     {
       "id": "new_adoption_publicity_recorded",
       "type": "boolean",
-      "description": "new adoption publicity recorded",
+      "description": "The adopted plan and adoption statement were made available and required copies/notifications provided under regulation 39 as soon as reasonably practicable.",
       "assessment": "record"
     },
     {
       "id": "new_withdrawal_publicity_recorded",
       "type": "boolean",
-      "description": "new withdrawal publicity recorded",
+      "description": "The authority made the regulation 38 withdrawal statement available, notified the required consultation participants and ceased the specified availability while retaining the timetable and withdrawal statement.",
       "assessment": "record"
     },
     {
       "id": "submission_date",
       "type": "date",
-      "description": "Actual or proposed legacy submission date; distinguish in case evidence",
+      "description": "Calendar date on which this plan was submitted for examination, used with the declared legacy legal basis to assess the ordinary saved-regime deadline or a verified directed deadline.",
       "assessment": "record"
     },
     {
       "id": "directed_legacy_deadline",
       "type": "date",
-      "description": "Plan-specific later deadline from Secretary of State direction",
+      "description": "The later plan-specific submission deadline extracted from an applicable Secretary of State direction under SI 2026/169 Schedule 1 paragraph 4(5). Supplying a date alone does not establish that a valid direction exists.",
       "assessment": "record"
     },
     {
