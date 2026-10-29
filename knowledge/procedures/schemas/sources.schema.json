@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "kind": {
+            "enum": [
+              "legislation",
+              "guidance",
+              "licence"
+            ]
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "retrieved_on": {
+            "type": "string",
+            "format": "date"
+          },
+          "licence": {
+            "const": "OGL-3.0"
+          },
+          "review_notes": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "url",
+          "kind",
+          "version",
+          "retrieved_on",
+          "licence",
+          "review_notes"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "sources"
+  ],
+  "additionalProperties": false
+}

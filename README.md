@@ -13,9 +13,20 @@ The intended scope extends beyond document processing or procedural checklists. 
 
 ## Current status
 
-**Early development / foundation stage.** The repository currently contains initial documentation, development conventions and a provisional website scaffold. It does **not** yet contain a functioning Local Plan application.
+**Early development / foundation stage.** The repository contains initial documentation, development conventions, a provisional website scaffold and a reviewable procedural knowledge package. It does **not** yet contain a functioning Local Plan application.
 
 Plans, research hypotheses and proposed capabilities in this repository should not be mistaken for implemented or validated software. This is an independent project; no institutional affiliation or endorsement is implied.
+
+## Procedural knowledge
+
+Start with the [readable procedural review guide](docs/procedures/README.md),
+which explains the model through stage pages and worked examples, with links
+from each assertion to its evidence definitions and official source.
+
+The [technical package](knowledge/procedures/README.md) contains
+machine-readable models of the saved 2012 and new 2026 systems, official source
+provenance, JSON schemas and executable examples. It is reviewable foundation
+work for the wider environment, with explicit coverage limits.
 
 ## Working on PlanCheck
 
