@@ -1,0 +1,2155 @@
+{
+  "schema_version": "0.1.0",
+  "cases": [
+    {
+      "id": "legacy-six-weeks",
+      "description": "Six-week legacy publication period is sufficient for the duration assertion.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-30",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "consultation_published": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "consultation_deadline": {
+          "value": "2026-11-12",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#legacy-six-weeks",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "legacy.consultation_minimum",
+        "new.plan_minimum"
+      ],
+      "expected": {
+        "legacy.consultation_minimum": "satisfied",
+        "new.plan_minimum": "not_applicable"
+      },
+      "expected_route": "legacy"
+    },
+    {
+      "id": "legacy-41-days",
+      "description": "One day short of six weeks fails the selected statutory duration assertion.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-30",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "consultation_published": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "consultation_deadline": {
+          "value": "2026-11-11",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#legacy-41-days",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "legacy.consultation_minimum"
+      ],
+      "expected": {
+        "legacy.consultation_minimum": "not_satisfied"
+      },
+      "expected_route": "legacy"
+    },
+    {
+      "id": "new-content-six-weeks",
+      "description": "The new content/evidence consultation minimum is six weeks.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "consultation_published": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "consultation_deadline": {
+          "value": "2026-11-12",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#new-content-six-weeks",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.content_minimum"
+      ],
+      "expected": {
+        "new.content_minimum": "satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "new-plan-six-weeks",
+      "description": "Six weeks is insufficient at the new proposed-plan consultation.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "consultation_published": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "consultation_deadline": {
+          "value": "2026-11-12",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#new-plan-six-weeks",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.plan_minimum",
+        "legacy.consultation_minimum"
+      ],
+      "expected": {
+        "new.plan_minimum": "not_satisfied",
+        "legacy.consultation_minimum": "not_applicable"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "new-plan-eight-weeks",
+      "description": "Exactly eight weeks meets the new proposed-plan minimum.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "consultation_published": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "consultation_deadline": {
+          "value": "2026-11-26",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#new-plan-eight-weeks",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.plan_minimum"
+      ],
+      "expected": {
+        "new.plan_minimum": "satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "new-plan-55-days",
+      "description": "One day short of eight weeks fails.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "consultation_published": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "consultation_deadline": {
+          "value": "2026-11-25",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#new-plan-55-days",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.plan_minimum"
+      ],
+      "expected": {
+        "new.plan_minimum": "not_satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "missing-deadline",
+      "description": "Missing dates remain unknown.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "consultation_published": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#missing-deadline",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.plan_minimum"
+      ],
+      "expected": {
+        "new.plan_minimum": "unknown"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "gateway2-no-draft-plan",
+      "description": "Absent draft plan/map are advisory gaps; necessary-material duty can still be met.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "new_gateway2_plan_provided": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "new_gateway2_policies_map_provided": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "gateway2_necessary_material_sent": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "gateway2_requested": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "gateway2_material_sent": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#gateway2-no-draft-plan",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway2_draft_plan",
+        "new.gateway2_draft_map",
+        "new.gateway2_necessary_material"
+      ],
+      "expected": {
+        "new.gateway2_draft_plan": "advisory_gap",
+        "new.gateway2_draft_map": "advisory_gap",
+        "new.gateway2_necessary_material": "satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "gateway2-no-necessary-material",
+      "description": "Discretion on document selection does not remove the statutory supply duty.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "gateway2_necessary_material_sent": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "gateway2_requested": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "gateway2_material_sent": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#gateway2-no-necessary-material",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway2_necessary_material"
+      ],
+      "expected": {
+        "new.gateway2_necessary_material": "not_satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "gateway3-missing-soundness",
+      "description": "Completed statement of soundness is mandatory at gateway 3.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "new_gateway3_soundness_provided": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#gateway3-missing-soundness",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway3_soundness"
+      ],
+      "expected": {
+        "new.gateway3_soundness": "not_satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "gateway3-unknown-inventory",
+      "description": "An absent observation is not proof that the document is absent.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {},
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#gateway3-unknown-inventory",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway3_soundness"
+      ],
+      "expected": {
+        "new.gateway3_soundness": "unknown"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "gateway3-not-soundness-verdict",
+      "description": "Gateway 3 success triggers submission; it cannot establish the examination soundness finding.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "assessor_all_prescribed_requirements_met": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "plan_submitted": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "examination_completed": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#gateway3-not-soundness-verdict",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.submit_after_gateway3",
+        "new.report_adopt"
+      ],
+      "expected": {
+        "new.submit_after_gateway3": "satisfied",
+        "new.report_adopt": "unknown"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "gateway3-repeat",
+      "description": "Unmet requirements require remedy and reassessment; submission trigger is not activated.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "assessor_all_prescribed_requirements_met": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "gateway3_remedy_and_repeat_recorded": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#gateway3-repeat",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway3_repeat",
+        "new.submit_after_gateway3"
+      ],
+      "expected": {
+        "new.gateway3_repeat": "satisfied",
+        "new.submit_after_gateway3": "not_applicable"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "legacy-no-map-change",
+      "description": "Legacy submission policies map condition can be false.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-30",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "adoption_changes_policies_map": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "legacy_submission_policies_map_provided": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#legacy-no-map-change",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "legacy.submission_map"
+      ],
+      "expected": {
+        "legacy.submission_map": "not_applicable"
+      },
+      "expected_route": "legacy"
+    },
+    {
+      "id": "legacy-map-condition-unknown",
+      "description": "Unknown spatial-change condition prevents a definitive map requirement result.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-30",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "legacy_submission_policies_map_provided": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#legacy-map-condition-unknown",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "legacy.submission_map"
+      ],
+      "expected": {
+        "legacy.submission_map": "unknown"
+      },
+      "expected_route": "legacy"
+    },
+    {
+      "id": "new-map-required",
+      "description": "The proposed policies map is a gateway 3 submission document.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "new_gateway3_policies_map_provided": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#new-map-required",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway3_policies_map"
+      ],
+      "expected": {
+        "new.gateway3_policies_map": "not_satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "sea-screening-alternative",
+      "description": "A recorded no-significant-effects determination activates reasons; no prepared environmental report is asserted.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "environmental_report_prepared": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "sea_no_significant_effects_determination": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "new_gateway3_screening_reasons_provided": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#sea-screening-alternative",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway3_environmental_report",
+        "new.gateway3_screening_reasons"
+      ],
+      "expected": {
+        "new.gateway3_environmental_report": "not_applicable",
+        "new.gateway3_screening_reasons": "satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "unknown-sea-trigger",
+      "description": "Do not assume SEA applicability from absent documents.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {},
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#unknown-sea-trigger",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway3_environmental_report",
+        "new.gateway3_screening_reasons"
+      ],
+      "expected": {
+        "new.gateway3_environmental_report": "unknown",
+        "new.gateway3_screening_reasons": "unknown"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "legacy-cutoff-inclusive",
+      "description": "Statutory saving includes 31 December despite collection wording.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2027-01-15",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-31",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#legacy-cutoff-inclusive",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "legacy"
+    },
+    {
+      "id": "legacy-examination-continues",
+      "description": "Examination of an eligible saved plan can continue after the cutoff.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2027-06-01",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-10",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#legacy-examination-continues",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "legacy"
+    },
+    {
+      "id": "late-legacy-no-direction",
+      "description": "Late date does not silently migrate a legacy plan to the new regime.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2027-01-02",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2027-01-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#late-legacy-no-direction",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "legacy.submission_sa"
+      ],
+      "expected": {
+        "legacy.submission_sa": "unknown"
+      },
+      "expected_route": "legacy_eligibility_unestablished"
+    },
+    {
+      "id": "late-legacy-directed",
+      "description": "An evidenced plan-specific later deadline can preserve the saved route.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2027-02-02",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2027-02-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "legacy_direction_verified": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "directed_legacy_deadline": {
+          "value": "2027-02-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#late-legacy-directed",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "legacy"
+    },
+    {
+      "id": "late-legacy-unverified-direction",
+      "description": "A date alone is not a verified Secretary of State direction.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2027-02-02",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2027-02-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "directed_legacy_deadline": {
+          "value": "2027-02-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#late-legacy-unverified-direction",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "legacy_eligibility_unestablished"
+    },
+    {
+      "id": "late-legacy-expired-direction",
+      "description": "A verified extension does not cover submissions after its own deadline.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2027-02-03",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2027-02-02",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "legacy_direction_verified": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "directed_legacy_deadline": {
+          "value": "2027-02-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#late-legacy-expired-direction",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "legacy_eligibility_unestablished"
+    },
+    {
+      "id": "unknown-route-on-boundary",
+      "description": "Submission date alone cannot decide the legal regime.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "unknown",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-31",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#unknown-route-on-boundary",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "unknown"
+    },
+    {
+      "id": "new-preparation-before-december",
+      "description": "New preparation duties commenced in March, not at the collection page submission date.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-01",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {},
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#new-preparation-before-december",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "new"
+    },
+    {
+      "id": "unsupported-plan-kind",
+      "description": "Standalone minerals and waste requires a Part 5 adaptation.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "minerals_and_waste_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {},
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#unsupported-plan-kind",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "out_of_scope"
+    },
+    {
+      "id": "unsupported-geography",
+      "description": "English regulations do not become Welsh obligations.",
+      "context": {
+        "jurisdiction": "Wales",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {},
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#unsupported-geography",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "out_of_scope"
+    },
+    {
+      "id": "pre-commencement-history",
+      "description": "Earlier histories require a versioned historical profile.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2026-03-24",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-30",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#pre-commencement-history",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "out_of_scope"
+    },
+    {
+      "id": "legacy-supporter-hearing",
+      "description": "Saved s 20(6) entitlement requires a representation seeking change.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-30",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "representation_made": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "representation_seeks_change": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "hearing_requested": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "hearing_opportunity_given": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#legacy-supporter-hearing",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "legacy.hearing_right"
+      ],
+      "expected": {
+        "legacy.hearing_right": "not_applicable"
+      },
+      "expected_route": "legacy"
+    },
+    {
+      "id": "new-supporter-hearing",
+      "description": "New s 15D(6) does not contain the seeking-change restriction.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "representation_made": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "representation_seeks_change": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "hearing_requested": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "hearing_opportunity_given": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#new-supporter-hearing",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.hearing_right"
+      ],
+      "expected": {
+        "new.hearing_right": "not_satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "legacy-mm-needs-request",
+      "description": "Saved s 20(7C) modification duty is conditional on LPA request.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-30",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "plan_sound_and_legal": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "curable_by_modifications": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "lpa_requested_modifications": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "curative_modifications_recommended": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#legacy-mm-needs-request",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "legacy.mm_request"
+      ],
+      "expected": {
+        "legacy.mm_request": "not_applicable"
+      },
+      "expected_route": "legacy"
+    },
+    {
+      "id": "new-mm-no-request-condition",
+      "description": "New modification duty does not depend on the legacy LPA request.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "plan_sound": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "curable_by_modifications": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "lpa_requested_modifications": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "curative_modifications_recommended": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "examination_completed": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "modifications_and_adoption_recommended_with_reasons": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#new-mm-no-request-condition",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.mm_recommendation"
+      ],
+      "expected": {
+        "new.mm_recommendation": "satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "new-pause-limit",
+      "description": "Six-month statutory pause maximum is distinct from examination target.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "pause_within_six_calendar_months": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "pause_notified": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "pause_begins": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "examination_target_met": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#new-pause-limit",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.pause_maximum",
+        "new.examination_target"
+      ],
+      "expected": {
+        "new.pause_maximum": "not_satisfied",
+        "new.examination_target": "target_missed"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "legacy-pause-expectation",
+      "description": "Legacy six-month pause guidance is not a statutory maximum.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-30",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "legacy_pause_normally_within_six_months": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#legacy-pause-expectation",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "legacy.pause_target"
+      ],
+      "expected": {
+        "legacy.pause_target": "advisory_gap"
+      },
+      "expected_route": "legacy"
+    },
+    {
+      "id": "same-day-gateway2-too-early",
+      "description": "Gateway 2 request must follow summary publication by at least one calendar day.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "content_summary_published": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "gateway2_requested": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#same-day-gateway2-too-early",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway2_sequence"
+      ],
+      "expected": {
+        "new.gateway2_sequence": "not_satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "next-day-gateway2",
+      "description": "Following-day gateway 2 request meets the sequence assertion.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "content_summary_published": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "gateway2_requested": {
+          "value": "2026-10-02",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#next-day-gateway2",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway2_sequence"
+      ],
+      "expected": {
+        "new.gateway2_sequence": "satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "unresolved-pause-not-automatically-withdrawal",
+      "description": "Unknown soundness prospect prevents a withdrawal conclusion merely because some matters remain.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "pause_ended": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#unresolved-pause-not-automatically-withdrawal",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.pause_withdrawal"
+      ],
+      "expected": {
+        "new.pause_withdrawal": "unknown"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "regard-not-obedience",
+      "description": "Recorded consideration can satisfy the regard assertion without a claim all advice was accepted.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "gateway_advice_and_responses_considered": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#regard-not-obedience",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway_advice_regard"
+      ],
+      "expected": {
+        "new.gateway_advice_regard": "satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "guidance-version-not-retrospective",
+      "description": "Current guidance edition is not asserted to have applied before publication.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-08-25",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "new_gateway2_plan_provided": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#guidance-version-not-retrospective",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway2_draft_plan"
+      ],
+      "expected": {
+        "new.gateway2_draft_plan": "not_applicable"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "sds-absent",
+      "description": "No operative SDS means the specific conformity-invitation rule does not activate.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "operative_sds": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#sds-absent",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.sds_consultation"
+      ],
+      "expected": {
+        "new.sds_consultation": "not_applicable"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "special-route",
+      "description": "Intervention or uncertain special route is referred to review, not ordinary-flow validation.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "special_or_unknown",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "submission_date": {
+          "value": "2026-12-30",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#special-route",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [],
+      "expected": {},
+      "expected_route": "out_of_scope"
+    },
+    {
+      "id": "pause-response-date-only",
+      "description": "Same-day dates do not establish breach or compliance before actual pause expiry.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "pause_response_contents_recorded": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "pause_response_published": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "pause_response_sent": {
+          "value": "2027-05-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "pause_ends": {
+          "value": "2027-05-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#pause-response-date-only",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.pause_response"
+      ],
+      "expected": {
+        "new.pause_response": "unknown"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "pause-response-reviewed",
+      "description": "Delivery timing is resolved by evidence reviewed against the actual notified period.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "pause_response_contents_recorded": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "pause_response_published": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "pause_response_before_expiry": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#pause-response-reviewed",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.pause_response"
+      ],
+      "expected": {
+        "new.pause_response": "satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "legacy-non-adoption-with-curative-modifications",
+      "description": "Legacy statutory non-adoption can coexist with recommended curative modifications and a permitted adoption route.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "saved_2012",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "examination_completed": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "plan_sound_and_legal": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "non_adoption_recommended_with_reasons": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "curable_by_modifications": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "lpa_requested_modifications": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "curative_modifications_recommended": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "legacy_adoption_conditions_met": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "submission_date": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#legacy-non-adoption-with-curative-modifications",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "legacy.report_adopt",
+        "legacy.report_non_adoption",
+        "legacy.mm_request",
+        "legacy.adoption_conditions"
+      ],
+      "expected": {
+        "legacy.report_adopt": "not_applicable",
+        "legacy.report_non_adoption": "satisfied",
+        "legacy.mm_request": "satisfied",
+        "legacy.adoption_conditions": "satisfied"
+      },
+      "expected_route": "legacy"
+    },
+    {
+      "id": "gateway3-unsuccessful-advice-still-published",
+      "description": "Failure at gateway 3 does not remove the advice-publication duty.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "assessor_all_prescribed_requirements_met": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "gateway3_publication_and_notices_recorded": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#gateway3-unsuccessful-advice-still-published",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway3_publication",
+        "new.gateway3_completion"
+      ],
+      "expected": {
+        "new.gateway3_publication": "not_satisfied",
+        "new.gateway3_completion": "not_applicable"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "gateway3-documents-late",
+      "description": "Document presence cannot cure sending the prescribed gateway 3 pack a day late.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "gateway3_requested": {
+          "value": "2026-10-01",
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "gateway3_documents_sent": {
+          "value": "2026-10-02",
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#gateway3-documents-late",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.gateway3_document_timing"
+      ],
+      "expected": {
+        "new.gateway3_document_timing": "not_satisfied"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "new-mm-before-examination-completed",
+      "description": "A final recommendation duty is not triggered just by an emerging view during examination.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "examination_completed": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "plan_sound": {
+          "value": false,
+          "evidence_refs": [
+            "fixture"
+          ]
+        },
+        "curable_by_modifications": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#new-mm-before-examination-completed",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.mm_recommendation"
+      ],
+      "expected": {
+        "new.mm_recommendation": "not_applicable"
+      },
+      "expected_route": "new"
+    },
+    {
+      "id": "replacement-period-needs-review",
+      "description": "No automatic five-year replacement compliance finding without the period assessment.",
+      "context": {
+        "jurisdiction": "England",
+        "plan_kind": "local_plan",
+        "legal_basis": "pcpa_15c",
+        "assessment_date": "2026-10-29",
+        "procedure_route": "ordinary_lpa",
+        "basis_evidence_refs": [
+          "fixture"
+        ]
+      },
+      "facts": {
+        "existing_new_system_plan_adopted_or_approved": {
+          "value": true,
+          "evidence_refs": [
+            "fixture"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "id": "fixture",
+          "kind": "synthetic",
+          "locator": "examples.json#replacement-period-needs-review",
+          "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+        }
+      ],
+      "rule_ids": [
+        "new.begin_replacement"
+      ],
+      "expected": {
+        "new.begin_replacement": "unknown"
+      },
+      "expected_route": "new"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "gateway2-no-draft-plan",
+  "description": "Absent draft plan/map are advisory gaps; necessary-material duty can still be met.",
+  "context": {
+    "jurisdiction": "England",
+    "plan_kind": "local_plan",
+    "legal_basis": "pcpa_15c",
+    "assessment_date": "2026-10-29",
+    "procedure_route": "ordinary_lpa",
+    "basis_evidence_refs": [
+      "fixture"
+    ]
+  },
+  "facts": {
+    "new_gateway2_plan_provided": {
+      "value": false,
+      "evidence_refs": [
+        "fixture"
+      ]
+    },
+    "new_gateway2_policies_map_provided": {
+      "value": false,
+      "evidence_refs": [
+        "fixture"
+      ]
+    },
+    "gateway2_necessary_material_sent": {
+      "value": true,
+      "evidence_refs": [
+        "fixture"
+      ]
+    },
+    "gateway2_requested": {
+      "value": "2026-10-01",
+      "evidence_refs": [
+        "fixture"
+      ]
+    },
+    "gateway2_material_sent": {
+      "value": "2026-10-01",
+      "evidence_refs": [
+        "fixture"
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "id": "fixture",
+      "kind": "synthetic",
+      "locator": "examples.json#gateway2-no-draft-plan",
+      "note": "Invented regression case; not evidence about a real authority, direction or Inspector finding."
+    }
+  ],
+  "rule_ids": [
+    "new.gateway2_draft_plan",
+    "new.gateway2_draft_map",
+    "new.gateway2_necessary_material"
+  ],
+  "expected": {
+    "new.gateway2_draft_plan": "advisory_gap",
+    "new.gateway2_draft_map": "advisory_gap",
+    "new.gateway2_necessary_material": "satisfied"
+  },
+  "expected_route": "new"
+}

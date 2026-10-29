@@ -1,0 +1,155 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "regs-2026",
+      "title": "Town and Country Planning (Local Planning) (England) Regulations 2026, SI 2026/186",
+      "url": "https://www.legislation.gov.uk/uksi/2026/186/made/data.html",
+      "kind": "legislation",
+      "version": "as made; in force 2026-03-25",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Parts 2 and 4 inspected against official text. Part 5 minerals and waste is a separate extension. Initial rollout Schedule is catalogued, not fully executable."
+    },
+    {
+      "id": "regs-2012-saved",
+      "title": "Town and Country Planning (Local Planning) (England) Regulations 2012, SI 2012/767",
+      "url": "https://www.legislation.gov.uk/uksi/2012/767/part/6",
+      "kind": "legislation",
+      "version": "revised Part 6 retrieved 2026-10-29; pre-2026 text as saved",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Revised text checked including omission of reg 22(2) on 2018-01-15 by SI 2017/1244 reg 5. Revoked subject to SI 2026/169 savings; do not apply as an unqualified current instrument."
+    },
+    {
+      "id": "savings-2026",
+      "title": "LURA 2023 Commencement No. 11 and Saving and Transitional Provisions Regulations 2026, SI 2026/169",
+      "url": "https://www.legislation.gov.uk/uksi/2026/169/schedule/1",
+      "kind": "legislation",
+      "version": "revised Schedule 1 including SI 2026/333",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Paragraphs 2 and 4 verified against revised text and original official PDF. Paragraph 8 added for CIL does not alter paragraph 4 submission cutoff."
+    },
+    {
+      "id": "pcpa-20-saved",
+      "title": "PCPA 2004 section 20 immediately before commencement",
+      "url": "https://www.legislation.gov.uk/ukpga/2004/5/section/20/2026-03-24",
+      "kind": "legislation",
+      "version": "point in time 2026-03-24, read with SI 2026/169 Sch 1 para 2",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Section 33A is expressly excluded from savings. Old references to that duty must not reactivate it."
+    },
+    {
+      "id": "pcpa-15CA",
+      "title": "PCPA 2004 section 15CA",
+      "url": "https://www.legislation.gov.uk/ukpga/2004/5/section/15CA",
+      "kind": "legislation",
+      "version": "revised text retrieved 2026-10-29",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Commencement checked against SI 2026/169 reg 3. Site lists outstanding Act-wide effects. PIA 2025 Sch 2 para 10 inspected: it concerns omitted joint-SDS provisions, not the encoded examination subsections. Section 15CA(6)(h) is excluded from commencement and is not encoded as an active duty."
+    },
+    {
+      "id": "pcpa-15D",
+      "title": "PCPA 2004 section 15D",
+      "url": "https://www.legislation.gov.uk/ukpga/2004/5/section/15D",
+      "kind": "legislation",
+      "version": "revised text retrieved 2026-10-29",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Commencement checked against SI 2026/169 reg 3. Site lists outstanding Act-wide effects. PIA 2025 Sch 2 para 10 inspected: it concerns omitted joint-SDS provisions, not the encoded examination subsections. Section 15CA(6)(h) is excluded from commencement and is not encoded as an active duty."
+    },
+    {
+      "id": "pcpa-15DA",
+      "title": "PCPA 2004 section 15DA",
+      "url": "https://www.legislation.gov.uk/ukpga/2004/5/section/15DA",
+      "kind": "legislation",
+      "version": "revised text retrieved 2026-10-29",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Commencement checked against SI 2026/169 reg 3. Site lists outstanding Act-wide effects. PIA 2025 Sch 2 para 10 inspected: it concerns omitted joint-SDS provisions, not the encoded examination subsections. Section 15CA(6)(h) is excluded from commencement and is not encoded as an active duty."
+    },
+    {
+      "id": "pcpa-15EA",
+      "title": "PCPA 2004 section 15EA",
+      "url": "https://www.legislation.gov.uk/ukpga/2004/5/section/15EA",
+      "kind": "legislation",
+      "version": "revised text retrieved 2026-10-29",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Commencement checked against SI 2026/169 reg 3. Site lists outstanding Act-wide effects. PIA 2025 Sch 2 para 10 inspected: it concerns omitted joint-SDS provisions, not the encoded examination subsections. Section 15CA(6)(h) is excluded from commencement and is not encoded as an active duty."
+    },
+    {
+      "id": "pins-legacy-11",
+      "title": "Procedure Guide for Local Plan Examinations",
+      "url": "https://www.gov.uk/government/publications/examining-local-plans-procedural-practice/procedure-guide-for-local-plan-examinations",
+      "kind": "guidance",
+      "version": "11th edition; updated 2026-08-20",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Expressly non-statutory. Inspector may adapt procedure fairly. Replaces 10th edition; reflects duty-to-cooperate change."
+    },
+    {
+      "id": "pins-new-1",
+      "title": "Procedural guide for Examinations and Gateways under the 2026 Regulations",
+      "url": "https://www.gov.uk/guidance/procedural-guide-for-examinations-and-gateways-under-the-town-and-country-planning-local-planning-england-regulations-2026",
+      "kind": "guidance",
+      "version": "first edition; updated 2026-08-26",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Expressly non-statutory (para 1.7). Earlier Markdown extraction recovered and used to navigate sections; operative assertions checked against official sources."
+    },
+    {
+      "id": "pins-collection",
+      "title": "New-style Local Plans collection",
+      "url": "https://www.gov.uk/government/collections/local-plans-preparing-and-examining-a-new-style-local-plan-2026-regulations",
+      "kind": "guidance",
+      "version": "published 2026-06-18; retrieved 2026-10-29",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Says on or after 2026-12-31. This is collection scope, not a sufficient legal regime selector; statutory saving includes that date and permits directed extensions."
+    },
+    {
+      "id": "savings-amendment",
+      "title": "SI 2026/333 amendment to commencement savings",
+      "url": "https://www.legislation.gov.uk/uksi/2026/333",
+      "kind": "legislation",
+      "version": "as made; in force 2026-03-24",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Adds CIL savings in paragraph 8 only."
+    },
+    {
+      "id": "pia-2025-sch2",
+      "title": "Planning and Infrastructure Act 2025 Schedule 2",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/34/schedule/2",
+      "kind": "legislation",
+      "version": "retrieved 2026-10-29; prospective provisions labelled",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Used to review the outstanding-effect annotation on the PCPA; not used to assert future duties."
+    },
+    {
+      "id": "ogl",
+      "title": "Open Government Licence v3.0",
+      "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "kind": "licence",
+      "version": "version 3.0",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Contains public sector information licensed under the Open Government Licence v3.0. Crown copyright; excludes any third-party rights."
+    },
+    {
+      "id": "pcpa-23-saved",
+      "title": "PCPA 2004 section 23 immediately before commencement",
+      "url": "https://www.legislation.gov.uk/ukpga/2004/5/section/23/2026-03-24",
+      "kind": "legislation",
+      "version": "point in time 2026-03-24, read with SI 2026/169 Sch 1",
+      "retrieved_on": "2026-10-29",
+      "licence": "OGL-3.0",
+      "review_notes": "Saved ordinary adoption powers, conditions and resolution requirement checked. Special directions/intervention remain outside this package."
+    }
+  ]
+}
