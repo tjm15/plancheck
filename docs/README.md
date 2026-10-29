@@ -2,6 +2,17 @@
 
 This directory will hold technical design decisions, research, provenance conventions and architecture notes as the implementation develops.
 
+## Procedural knowledge foundation
+
+The [Local Plan procedural package](../knowledge/procedures/README.md) provides
+versioned JSON data, schemas, an evidence-aware reference evaluator and regression
+examples for the saved 2012 and new 2026 systems. The
+[source recovery and verification record](procedural-source-review.md) explains
+what was recovered, the legislation checked and the remaining coverage limits.
+
+This is implemented foundation work subject to maintainer review, not an adopted
+application architecture or a claim that the Local Plan environment is complete.
+
 ## Decision discipline
 Distinguish **accepted decisions**, **working hypotheses**, **open questions** and **implemented behaviour**. Proposals in planning conversations or research notes are not adopted architecture until explicitly reviewed.
 

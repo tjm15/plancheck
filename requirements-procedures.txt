@@ -1,0 +1,2 @@
+# Validation/reference evaluator only; no application runtime commitment.
+jsonschema==4.26.0
